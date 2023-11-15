@@ -61,8 +61,7 @@ Before running the client-server project, make sure you have the following prere
 2.Navigate to the client directory where the client code is located.
 
 3.Compile the client code using the following command:
-   
-    ```bash    
+
     gcc client.c -o client -lssl -lcrypto
 4.Run the client using the following command:
 
