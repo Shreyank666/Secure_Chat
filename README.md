@@ -74,6 +74,8 @@ Before running the client-server project, make sure you have the following prere
 
 ### Additional Notes
 
-  *Ensure that the server is running before attempting to connect with the client.
-  *You can run multiple client instances to simulate multiple clients connecting to the server simultaneously.
-  *Make sure to replace placeholders like [PORT], [SERVER IP] with actual values.
+*Ensure that the server is running before attempting to connect with the client.
+  
+*You can run multiple client instances to simulate multiple clients connecting to the server simultaneously.
+  
+*Make sure to replace placeholders like [PORT], [SERVER IP] with actual values.
