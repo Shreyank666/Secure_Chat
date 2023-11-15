@@ -46,58 +46,6 @@ Before running the client-server project, make sure you have the following prere
 
    ```bash
    gcc server.c -o server -lssl -lcrypto
-###Certainly! Here's a complete README.md file template that you can copy and paste into your GitHub repository. Please replace the placeholders with your project-specific details.
-
-markdown
-
-# Secure Client-Server Communication
-
-A secure client-server communication system implemented using OpenSSL for data confidentiality and integrity.
-
-## Table of Contents
-
-- [Description](#description)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Setting up the Server](#setting-up-the-server)
-  - [Setting up the Client](#setting-up-the-client)
-- [Usage](#usage)
-- [Interacting with the Server](#interacting-with-the-server)
-- [Terminating the Server and Client](#terminating-the-server-and-client)
-- [Additional Notes](#additional-notes)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Description
-
-This project focuses on secure client-server communication, ensuring data confidentiality and integrity over networked environments. It uses OpenSSL for implementing robust encryption and decryption methods.
-
-## Features
-
-- **Symmetric and Asymmetric Encryption**: Utilizes both symmetric and asymmetric cryptographic techniques for secure data transmission.
-- **SSL/TLS Protocol**: Implements industry-standard SSL/TLS protocols for secure communication.
-- **Key Management**: Addresses challenges related to encryption, key management, and authentication protocols.
-- **Scalability**: Ensures scalability to support an increasing number of clients and concurrent connections.
-- **Usability**: Balances security precautions with usability for a seamless user experience.
-
-## Getting Started
-
-### Prerequisites
-
-Before running the client-server project, make sure you have the following prerequisites installed on your system:
-
-- C Compiler (e.g., GCC)
-- OpenSSL Library
-
-### Setting up the Server
-
-1. Open a terminal window.
-2. Navigate to the server directory where the server code is located.
-3. Compile the server code using the following command:
-
-   ```bash
-   gcc server.c -o server -lssl -lcrypto
 ### Run the server using the following command:
     ```bash
     ./server [PORT]
